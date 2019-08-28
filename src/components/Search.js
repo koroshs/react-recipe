@@ -11,7 +11,7 @@ export default class Search extends Component {
               search recipes with{" "}
               <strong className="text-orange">Food2Fork</strong>
             </h1>
-            <form className="mt-4">
+            <form className="mt-4" onSubmit={handleSubmit}>
               <label htmlFor="search" className="text-capitalize">
                 types recipes separated by comma
               </label>
